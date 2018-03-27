@@ -1,0 +1,64 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    border: 10px;    
+    border-style: solid;
+    border-color: white;
+    background: #EAEDEF;
+}
+body{
+
+    animation: fadein 2s;
+
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.div-center{
+    width: 150vh;
+    height: 75vh;
+   
+    margin: 100px auto;
+   
+}
+.div-menu{
+    float: right;
+    font-size: 25px;
+}
+.menu-list{
+    width: 100%;
+    height: 100%;
+   
+    display: grid;
+   
+}   
+.div-list{
+    width: 75vh;
+    height: 75vh;
+    
+    margin:  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    color: black;   
+}
+p:hover{
+    text-shadow: 12px 12px 26px rgba(150, 150, 150, 1);
+}
+.inside-div{
+    height: 40vh;
+    width: 50vh;
+  
+    text-align: center;    
+}

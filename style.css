@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+.navbar{
+    height: 6vh;
+    width: 75%;
+    background: grey;
+    margin:0 auto;
+    padding-left: 0px;
+    align-items: center;
+}
+.about{
+    float: left;
+}
+.menu{
+    float: right;
+}
+.navbar li{
+    list-style-type: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 25px;
+    line-height: 55px;
+}
+
+.intro-image{
+    width: 75%;
+    height: 60vh;
+    background: gainsboro;
+    margin: 3px auto;
+    
+   
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
