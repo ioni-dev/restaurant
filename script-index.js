@@ -1,20 +1,25 @@
 var images = ["<img src='main-photo.jpg' width= 100% height= 100%  />",
-              "<img src='wine-photo.jpg' width= 100% height= 100%/>",
-              "<img src='table-photo.jpg' width= 100% height= 100%/>",
-              "<img src='iphone-lady.jpg' width= 100%  height= 100%/>"];
+              "<img src='main-2.jpg' width= 100% height= 100%/>",
+              "<img src='main-3.jpg' width= 100% height= 100%/>",
+              "<img src='main-4.jpg' width= 100%  height= 100%/>",
+              "<img src='main-5.jpg' width= 100%  height= 100%/>",
+              "<img src='main-6.jpg' width= 100%  height= 100%/>",
+              "<img src='main-7.jpg' width= 100%  height= 100%/>",
+              "<img src='main-8.jpg' width= 100%  height= 100%/>",
+              "<img src='main-9.jpg' width= 100%  height= 100%/>"];
 
-
+var i = 0;
 
 function change(){
-    
-    var random = images[Math.floor(images.length * Math.random())];
-        document.getElementById("image-proyector").innerHTML = random;
-        
-
+   
+        document.getElementById("image-proyector").innerHTML = images[i];
+        if(i < images.length -1){
+            i++;
+        }else{
+            i=0;
+        }
+    setTimeout("change()", 3000);
        
         
 };
 
-function reloj (){
-     setInterval(change, 3000);
-};

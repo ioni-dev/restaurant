@@ -4,7 +4,7 @@ body, html{
     border: 10px;    
     border-style: solid;
     border-color: white;
-    background: #EAEDEF;
+   
 }
 body{
 
@@ -18,14 +18,25 @@ body{
 .div-center{
     width: 150vh;
     height: 75vh;
-   
+   background-image:url(lea.jpg);
+   background-position: center;
     margin: 100px auto;
    
 }
 .div-menu{
     float: right;
     font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
+.div-menu div{
+    width: 100px;
+}
+.div-1{
+    margin: 0 40% 0 48%;
+}
+
 .menu-list{
     width: 100%;
     height: 100%;

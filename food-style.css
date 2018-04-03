@@ -15,7 +15,19 @@ body, html{
     
     text-align: end;
     font-size: 25px;     
-     
+    display: flex;
+    animation: fadein 1s;
+
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+.menu .div-1{
+    margin: 0 44% 0 48%;
 }
 .inside-container{
     width: 100%;

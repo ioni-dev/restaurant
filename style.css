@@ -28,6 +28,8 @@ body{
     margin-left: 15px;
     font-size: 25px;
     line-height: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
 }
 
 .intro-image{
@@ -45,8 +47,17 @@ body{
     transform: translate(-50%, -50%);
     font-size: 100px;
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
 }
 a{
     text-decoration: none;
     color: black;
+}
+
+/* Media queries */
+@media screen and (max-width: 800px){
+    .intro-image{
+        max-width: 80%;
+    }
 }
