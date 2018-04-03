@@ -61,3 +61,36 @@ a{
         max-width: 80%;
     }
 }
+@media screen and (max-width: 414px){
+    .container{
+        max-width: 100%;
+    }
+    .navbar li{
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .centered{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 320px){
+    .container{
+        max-width: 400px;
+    }
+    .navbar li{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .centered{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 568px){
+    .navbar li{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .centered{
+        font-size: 50px;
+    }
+}
