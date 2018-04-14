@@ -3,7 +3,7 @@ body html{
     padding: 0;
 }
 body{
-    background-image: url("ice.png");
+    background-image: url("1.jpg");
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 400px 300px;
@@ -19,13 +19,23 @@ body{
     width: 150vh;
     height: 80vh;
     margin: 9vh auto;
+    background: aquamarine;
 }
 .menu{
+    position: fixed;
     height: 30px;
     width: 100%;
     
-    font-size: 25px;
     text-align: end;
+    font-size: 25px;     
+    display: flex;
+    animation: fadein 1s;
+}
+.menu .div-1{
+    margin: 1% 7% 0 55%;
+}
+.menu .div-2{
+    margin-top: 1%;
 }
 .reservation-info{
     height: 30%;
@@ -61,7 +71,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 80px;
+    font-size: 38px;
 }
 #dietary{
     
@@ -69,8 +79,10 @@ body{
     text-align: start;
 }
 .info{
-    width: 30%;
+    width: 50%;
     font-size: 20px;
+    padding-left: 15px;
+    
 }
 h2{
     font-family: 'Inconsolata', monospace;
@@ -82,4 +94,118 @@ a{
 }
 .fir{
     width: 40px;
+}
+textarea{
+   height:200px;
+   width:550px;
+    resize: none;
+}
+/*mediaqueries*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container{
+        width: 95%;
+    }
+    textarea{
+        height: 177px;
+        width: 450px;
+    }
+    .info h2{
+        font-size: 25px;
+    }
+    .info{
+        font-size: 18px;
+    }
+    .menu .div-1{
+        margin: 1% 7% 0 71%;
+    }
+}
+@media (max-width: 766px) and (min-width:601px) {
+    .container{
+        max-width: 85%;
+    }
+    textarea{
+        height: 150px;
+        width: 450px;
+    }
+    .form-div{
+        max-height: 60%;
+        max-width: 100%;
+        font-size: 15px;
+    }
+    .info h2{
+        font-size: 20px;
+    }
+    .info{
+        font-size: 16px;
+    }
+    .fo{
+        font-size: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px){
+    .container{
+        max-width: 90%;
+    }
+    .form-div{
+        width: 100%;
+        font-size: 25px;
+    }
+    .info{
+        font-size: 16px;
+
+    }
+    .fo{
+        max-width: 31vh;
+        font-size: 15px;
+    }
+    textarea{
+        width: 350px;
+        height: 100px;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .container{
+        width: 90%;
+        height: 90vh;
+        margin: 4vh auto;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    .menu .div-1{
+        margin:1% 4% 0 52%;
+    }
+    .info p{
+        width: 230px;
+    }
+    .info h2{
+        padding-top: 5%;
+    }
+    .form-div{
+        width: 90%;
+        text-align: center;
+    }
+    .fo{
+        max-width: 100%;
+        font-size: 15px;
+        
+    }
+    textarea{
+        width: 221px;
+        height: 100px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    body{
+        background-image: url("1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 400px 300px;
+    
+        animation: fadein 2s;
+    
+    }
 }

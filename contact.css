@@ -13,15 +13,24 @@ body{
 .container{
     width: 150vh;
     height: 80vh;
-    
+    background: rgb(179, 212, 223);
     margin: 5% auto;
 }
 .menu{
-    height: 3vh;
+    position: fixed;
+    height: 30px;
     width: 100%;
     
-    font-size: 25px;
     text-align: end;
+    font-size: 25px;     
+    display: flex;
+    animation: fadein 1s;
+}
+.menu .div-1{
+    margin: 1% 5% 0 59%;
+}
+.menu .div-2{
+    margin-top: 1%;
 }
 .contact-info{
     width: 100%;
@@ -39,6 +48,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.contact-box{
+    width: 43%;
+    margin: 3% auto;
+}
+.box-social{
+    width: 25%;
+    padding: 10%;
 }
 h2{
     font-family: 'Inconsolata', monospace;
@@ -62,5 +79,92 @@ p{
 }
 #maps{
     width: 100%;
-    height: 500px;
+    height: 350px;
+}
+/*mediaqueries*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container{
+        max-width: 90%;
+    }
+    .menu .div-1{
+        margin: 1% 5% 0 66%;
+    }
+    .contact-box p{
+        font-size: 18px;
+    }
+}
+@media (min-width: 601px) and (max-width:766px){
+    .container{
+        max-width: 90%;
+    }
+    .menu .div-1{
+        margin: 1% 5% 0 64%;
+    }
+    .contact-box p{
+        font-size: 16px;
+    }
+    .box{
+        font-size: 18px;
+    }
+    .box-social a{
+        font-size: 18px;
+    }
+    #maps{
+        width: 100%;
+        height: 250px;
+    }
+}
+@media (min-width: 480px) and (max-width: 600px){
+    .container{
+        max-width: 95%;
+    }
+    .menu .div-1{
+        margin: 1% 5% 0 59%;
+    }
+    .contact-box{
+        width: 52%;
+    }
+    .contact-box p{
+        font-size: 13px;
+    }
+    .box{
+        font-size: 16px;
+    }
+    .box-social a{
+        font-size: 16px;
+    }
+    .box-social{
+        padding: 17%;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .container{
+        max-width: 95%;
+    }
+    .menu .div-1{
+        margin: 1% 5% 0 51%;
+    }
+    .contact-box p{
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        font-size: 18px;
+        margin-right: 0;
+        
+    }
+    .box-social{
+        width: 20%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box-social a{
+        font-size: 15px;
+    }
 }

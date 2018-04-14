@@ -18,7 +18,7 @@ function change(){
         }else{
             i=0;
         }
-    setTimeout("change()", 3000);
+    setTimeout("change()", 2000);
        
         
 };

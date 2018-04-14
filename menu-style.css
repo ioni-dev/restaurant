@@ -24,18 +24,14 @@ body{
    
 }
 .div-menu{
-    float: right;
+    
     font-size: 25px;
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
 }
-.div-menu div{
-    width: 100px;
-}
-.div-1{
-    margin: 0 40% 0 48%;
-}
+
 
 .menu-list{
     width: 100%;
@@ -74,6 +70,7 @@ p:hover{
     position: absolute;
     top: 25%;    
 }
+
 
 /*mediaqueries*/
 @media (max-width:1370px){

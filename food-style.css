@@ -8,8 +8,10 @@ body, html{
     
     margin: auto;
    margin-top: 9vh;
+   background: #EFF8F8;
 }
 .menu{
+    position: fixed;
     height: 30px;
     width: 100%;
     
@@ -27,28 +29,28 @@ body, html{
 
 
 .menu .div-1{
-    margin: 0 44% 0 48%;
+    margin: 1% 10% 0 52%;
 }
+.menu .div-2{
+    margin-top: 1%;
+}
+
 .inside-container{
-    width: 100%;
     height: 96%;
     display: flex;
-    justify-content:space-between; 
-    
-    
-    
-}
+    justify-content:space-between;
+    border: 3px solid #FFDC73;
+    margin: 10px;    
+    }
 .menu-div{
-    width: 50%;
+    width: 100%;
     height: 100%;
-    margin-left: 10%;
-    
-    padding-left: 5%;
+    text-align: center;
+    margin-top: 5%;
 }
 .p{
     font-size: 20px;
-    font-family: 'Inconsolata', monospace;
-    font-weight: bold;
+    font-family: 'lato';
     animation: fadein 2s;
 
 }
@@ -59,64 +61,98 @@ body, html{
 h2{
     margin-bottom: 5vh;
     margin-top: 5vh;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'lato';
     animation: fadein 2s;
 
 }
 .menu-div span{
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+    font-family: 'pridi';
+    
      
 
 }
-.img{
-    height: 600px;
-    width: 500px;
-    margin-top: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    animation: fadein 2s;
 
-}
 .second-container{
     width: 150vh;
-    height: 80vh;
-    
-    margin: auto;
+    border: 3px solid #B0E0E6;
+
+    margin: 10px  auto;
     display: flex;
     flex-direction: row-reverse;
-    
+    background-image: url('2.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .drinks-div{
-    width: 50%;
-    height: 80%;
-    margin-top: 10%;
-    margin-left: 20%;
+  width: 100%;
+  text-align: center;
     
 }
 .drinks-div span{
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+    font-family: 'pridi';
 }
-.img2{
-    height: 600px;
-    width: 500px;
-    margin-left: 15%;
-    margin-top: 6%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    animation: fadein 2s;
 
-}
 a{
     text-decoration: none;
     color: black;
 }
+
+/*mediaqueries*/
+
 @media (min-width: 768px) and (max-width: 1024px) {
-    .inside-container{
-        max-width: 80%;
+  .menu{
+      width: 100%;
+  }
+  .container{
+      width: 80%;
+  }
+  .second-container{
+      width: 80%;
+      height: 100vh;
+      
+  }
+  .drinks-div{
+    background-image: url('2.jpg');
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    background-position: 100% 50% ;
+  }
+}
+@media (min-width: 601px) and (max-width:766px) {
+    .container{
+        width: 90%;
     }
-    .div-list{
-        width: 0%;
+    .second-container{
+        width: 90%;
+    }
+    .drinks-div{
+        background-image: none;
+       
+}
+@media (min-width: 480px) and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .second-container{
+        width: 90%;
+        height: 100vh;
+    }
+    .drinks-div{
+        background-image: none;
+      }
+     
+  }
+@media (min-width: 320px) and (max-width: 480px){
+    .container{
+        width: 90%;
+    }
+    h2{
+        font-size: 8px;
     }
 }
