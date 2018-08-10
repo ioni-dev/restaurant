@@ -1,4 +1,4 @@
-var images = ["<img src='Media/main-photo.jpg' />",
+var images = ["<img src='restaurant/Media/main-photo.jpg' />",
               "<img src='Media/main-2.jpg'/>",
               "<img src='Media/main-3.jpg'/>",
               "<img src='Media/main-4.jpg'/>",
