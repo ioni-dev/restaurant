@@ -50,7 +50,7 @@ h2{
 }
 .img{
     grid-area: 3 / 1 / span 1 / span 2;
-    background-image: url('https://raw.githubusercontent.com/ioni-dev/restaurant/master/Media/mexico.jpg');
+    background-image: url('![](Media/mexico.jpg)');
     background-size: 300px 200px;
     background-repeat: no-repeat;
     background-position: center;
