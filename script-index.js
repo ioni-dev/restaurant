@@ -1,12 +1,12 @@
-var images = ["<img src='media/main-photo.jpg' />",
-              "<img src='media/main-2.jpg'/>",
-              "<img src='media/main-3.jpg'/>",
-              "<img src='media/main-4.jpg'/>",
-              "<img src='media/main-5.jpg'/>",
-              "<img src='media/main-6.jpg'/>",
-              "<img src='media/main-7.jpg'/>",
-              "<img src='media/main-8.jpg'/>",
-              "<img src='media/main-9.jpg'/>"];
+var images = ["<img src='Media/main-photo.jpg' />",
+              "<img src='Media/main-2.jpg'/>",
+              "<img src='Media/main-3.jpg'/>",
+              "<img src='Media/main-4.jpg'/>",
+              "<img src='Media/main-5.jpg'/>",
+              "<img src='Media/main-6.jpg'/>",
+              "<img src='Media/main-7.jpg'/>",
+              "<img src='Media/main-8.jpg'/>",
+              "<img src='Media/main-9.jpg'/>"];
 
 var i = 0;
 
