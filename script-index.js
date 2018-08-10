@@ -1,5 +1,5 @@
 var images = ["<img src='media/main-photo.jpg' />",
-              "<img src='media/main-2.jpg'/>",
+              "<img src='https://raw.githubusercontent.com/ioni-dev/restaurant/master/Media/main-2.jpg'/>",
               "<img src='media/main-3.jpg'/>",
               "<img src='media/main-4.jpg'/>",
               "<img src='media/main-5.jpg'/>",
