@@ -1,15 +1,14 @@
-body, html{
+body html{
     margin: 0;
     padding: 0;
-    border: 0;
 }
 .container{
     display: grid;
     grid-template-columns: 400px 400px;
-    grid-template-rows: 40px 700px;
+    grid-template-rows: 40px 310px 200px;
     justify-content: center;
     
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .navbar{
     grid-column-start:1;
@@ -26,34 +25,35 @@ body, html{
 }
 .navbar div{
     width: 100px;
+    color: white;
 }
 a{
     text-decoration: none;
-    color: #dbedf3;
+    color: white;
 }
-.food{
+.about{
     grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background: #DEE9F5;
+    grid-column-end: 3;   
+    background: #ABD4DD;
+    display: grid;
+}
+h2{
     text-align: center;
-    padding-top: 15%;
-}
-.beverages{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    background: #F8F0EB;
-    text-align: center;
-    padding-top: 50%;
-}
-h3{
     font-family: 'Open Sans';
-    font-size: 20px;
 }
-p{
+.about p{
+    width: 500px;
+    justify-self: center;
+    align-content: center;
+    text-align: justify;
     font-family: 'Open Sans';
-    font-size: 15px;
+}
+.img{
+    grid-area: 3 / 1 / span 1 / span 2;
+    background-image: url('media/mexico.jpg');
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 @media screen and (max-width:820px){
     body{
@@ -61,28 +61,33 @@ p{
     }
     .container{
         display: grid;
-        grid-template-columns: 320px 320px;
-        grid-template-rows: 40px 700px;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 40px 310px 200px;
         justify-content: center;
         
-        margin-top: 100px;
+        margin-top: 0;
     }
-        
-}
-@media screen and (max-width:660px){
+}   
+@media screen and (max-width:620px){
     body{
         border: 0;
     }
     .container{
         display: grid;
         grid-template-columns: 250px 250px;
-        grid-template-rows: 40px 700px;
+        grid-template-rows: 40px 310px 200px;
         justify-content: center;
-        
-        margin-top: 100px;
+        margin-top: 0;
     }
-        
-}
+    .about p{
+        width: 300px;
+        justify-self: center;
+        align-content: center;
+        text-align: justify;
+        font-family: 'Open Sans';
+        font-size: 15px;
+    }
+}  
 @media screen and (max-width:520px){
     body{
         border: 0;
@@ -90,17 +95,16 @@ p{
     .container{
         display: grid;
         grid-template-columns: 180px 180px;
-        grid-template-rows: 40px 600px;
+        grid-template-rows: 40px 310px 200px;
         justify-content: center;
-        margin-top: 5px;
-        
+        margin-top: 0;
     }
-    h3{
+    .about p{
+        width: 300px;
+        justify-self: center;
+        align-content: center;
+        text-align: justify;
         font-family: 'Open Sans';
         font-size: 15px;
     }
-    p{
-        font-family: 'Open Sans';
-        font-size: 12px;
-    }   
-}
+}    

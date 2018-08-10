@@ -5,34 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" media="screen" href="contact.css" />
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat:300" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>contact</title>
 </head>
 <body>
-    <div class="container">
-        <div class="inside-container">
-            <div class="menu"><div class="div-1"><a href="index.html">home</a> </div><div class="div-2"><a href="menu.html">menu</a></div></div>
-            <div class="contact-info">
-                <div class="box"><h2>Contact</h2></div>
-                <div class="contact-box"><p class="fir">
-                    av. costera miguel aleman, condesa
-                        +52 1 503 10 22
-                        notreal@el-chingon.com</p>
-                        <p>
-                        opening hours:
-                        tue–fri from 18.30
-                        sat 12.00–15.00 and from 18.30</p></div>
-                <div class="box-social">
-                    <a href="instagram.com">instagram</a><br>
-                    <a href="facebook.com">facebook</a>
-                </div>
-            </div>
-            <div id="maps"></div>
+   <div class="container animated fadeIn">
+        <div class="navbar">
+          <div><a href="index.html">home</a></div>
+          <div><a href="menu.html">menu</a></div>
         </div>
+        <div class="contactInfo">
+            <div class="h2">Contact</div>
+            <div class="info"><p>
+                    av. costera miguel aleman, condesa 555-5555 notreal@el-chingon.com
+
+                    opening hours: tue–fri from 18.30 sat 12.00–15.00 and from 18.30
+            </p></div>
+            <div class="socialLinks">
+                    <a href="www.instagram.com">instagram</a><br>
+                    <a href="www.facebook.com">facebook</a>
+            </div>
+        </div>
+        <div class="map animated flipInX delay-5s" id="maps"></div>
     </div>
-    <script>
-            function myMap() {
+     <script>
+                function myMap() {
                 var myLatLng = {lat: 16.856712, lng:  -99.866341};
             var map = new google.maps.Map(document.getElementById("maps"),{
                 zoom:15,
@@ -49,7 +51,10 @@
             </script>
             
             <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJSqL3vp__ck1_gmAa6l9hiosELXxsXKo&callback=myMap">>
-</script>
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJSqL3vp__ck1_gmAa6l9hiosELXxsXKo&callback=myMap"></script>
+
+                
+        
+  
 </body>
 </html>
