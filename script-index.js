@@ -1,12 +1,12 @@
 var images = ["<img src='restaurant/Media/main-photo.jpg' />",
-              "<img src='Media/main-2.jpg'/>",
-              "<img src='Media/main-3.jpg'/>",
-              "<img src='Media/main-4.jpg'/>",
-              "<img src='Media/main-5.jpg'/>",
-              "<img src='Media/main-6.jpg'/>",
-              "<img src='Media/main-7.jpg'/>",
-              "<img src='Media/main-8.jpg'/>",
-              "<img src='Media/main-9.jpg'/>"];
+              "<img src='restaurant/Media/main-2.jpg'/>",
+              "<img src='restaurant/Media/main-3.jpg'/>",
+              "<img src='restaurant/Media/main-4.jpg'/>",
+              "<img src='restaurant/Media/main-5.jpg'/>",
+              "<img src='restaurant/Media/main-6.jpg'/>",
+              "<img src='restaurant/Media/main-7.jpg'/>",
+              "<img src='restaurant/Media/main-8.jpg'/>",
+              "<img src='restaurant/Media/main-9.jpg'/>"];
 
 var i = 0;
 
