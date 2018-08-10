@@ -30,7 +30,7 @@ li a{
     color: black;
 }
 .menu{
-    background-image: url('restaurant/Media/lea.jpg');
+    background-image: url('https://raw.githubusercontent.com/ioni-dev/restaurant/master/Media/lea.jpg');
     background-size: 350px 700px;
     display: grid;
     justify-content: center; 
@@ -76,7 +76,7 @@ li a{
         justify-content: center;
     }
     .menu{
-        background-image: url('restaurant/Media/lea.jpg');
+        background-image: url('https://raw.githubusercontent.com/ioni-dev/restaurant/master/Media/lea.jpg');
         background-size: 500px 600px;
         display: grid;
         justify-content: center; 
@@ -97,7 +97,7 @@ li a{
         justify-content: center;
     }
     .menu{
-        background-image: url('restaurant/Media/lea.jpg');
+        background-image: url('https://raw.githubusercontent.com/ioni-dev/restaurant/master/Media/lea.jpg');
         background-size: 400px 550px;
         display: grid;
         justify-content: center; 
