@@ -1,5 +1,5 @@
-var images = ["<img src='/Media/main-photo.jpg'/>",
-              "<img src='/Media/main-2.jpg'/>",
+var images = ["<img src='https://github.com/ioni-dev/restaurant/blob/master/Media/main-photo.jpg'/>",
+              "<img src='https://github.com/ioni-dev/restaurant/blob/master/Media/main-2.jpg'/>",
               "<img src='restaurant/Media/main-3.jpg'/>",
               "<img src='restaurant/Media/main-4.jpg'/>",
               "<img src='restaurant/Media/main-5.jpg'/>",
