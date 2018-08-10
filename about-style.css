@@ -50,7 +50,7 @@ h2{
 }
 .img{
     grid-area: 3 / 1 / span 1 / span 2;
-    background-image: url('media/mexico.jpg');
+    background-image: url('restaurant/media/mexico.jpg');
     background-size: 300px 200px;
     background-repeat: no-repeat;
     background-position: center;
